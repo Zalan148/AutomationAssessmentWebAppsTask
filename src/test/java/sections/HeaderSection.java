@@ -12,14 +12,12 @@ public class HeaderSection {
         setLink.click();
         WebElement acctIcn = ElementPresenceWait.waitUntilClickable(Hooks.driver, Hooks.driver.findElement(By.xpath("//span[@title='zalan.wadood (zalanwadood1)']")));
         acctIcn.click();
-
     }
 
     public void clickLogoutLink() {
         ElementPresenceWait.waitUntilTitleVisible(Hooks.driver,"Zalan Wadood's workspace");
         WebElement logoutLk = ElementPresenceWait.waitUntilClickable(Hooks.driver, Hooks.driver.findElement(By.xpath("//span[contains(text(),'Log out')]")));
         logoutLk.click();
-
     }
 
     public void clickDotsTopNavBar() {
@@ -34,14 +32,12 @@ public class HeaderSection {
         WebElement enterSearch = ElementPresenceWait.waitUntilClickable(Hooks.driver, Hooks.driver.findElement(By.xpath("//*[@placeholder='Search']")));
         enterSearch.click();
         enterSearch.sendKeys(search);
-
     }
 
     public void setInformationIconNavBar() {
         ElementPresenceWait.waitUntilTitleVisible(Hooks.driver,"Boards | Trello");
         WebElement setInfoIcon = ElementPresenceWait.waitUntilClickable(Hooks.driver, Hooks.driver.findElement(By.xpath("//span[@data-testid='HelpIcon']")));
         setInfoIcon.click();
-
     }
 
     public void clickWorkspacesDropdown() {
@@ -49,14 +45,11 @@ public class HeaderSection {
         ElementPresenceWait.waitUntilVisibilityLocated(Hooks.driver, header);
         WebElement workSpacesDd = ElementPresenceWait.waitUntilClickable(Hooks.driver, Hooks.driver.findElement(By.xpath("//span[@class='i67i1H0j1SpGBe'][text()='Workspaces']")));
         workSpacesDd.click();
-
     }
 
     public void setNotificationsIconNavBar() {
         ElementPresenceWait.waitUntilTitleVisible(Hooks.driver,"Boards | Trello");
         WebElement setNotif = ElementPresenceWait.waitUntilClickable(Hooks.driver, Hooks.driver.findElement(By.xpath("//button[@data-testid='header-notifications-button']")));
         setNotif.click();
-
-
     }
 }

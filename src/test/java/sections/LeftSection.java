@@ -10,7 +10,6 @@ public class LeftSection {
         ElementPresenceWait.waitUntilTitleVisible(Hooks.driver,"Boards | Trello");
         WebElement homeLk = ElementPresenceWait.waitUntilClickable(Hooks.driver, Hooks.driver.findElement(By.linkText("Home")));
         homeLk.click();
-
     }
 
     public void setSelectTemplateFromLeftMenu(String temp) {
@@ -19,13 +18,11 @@ public class LeftSection {
         By selectTemplateFromLeftMenu = By.xpath("//span[@class='DD3DlImSMT6fgc'][contains(text(),'"+temp+"')]");
         WebElement selLeftMenu = ElementPresenceWait.waitUntilClickable(Hooks.driver,Hooks.driver.findElement(selectTemplateFromLeftMenu) );
         selLeftMenu.click();
-
     }
 
     public void navigateToTempPage() {
         ElementPresenceWait.waitUntilTitleVisible(Hooks.driver, "Boards | Trello" );
         WebElement navTemp = ElementPresenceWait.waitUntilClickable(Hooks.driver, Hooks.driver.findElement(By.xpath("//span[@class='DD3DlImSMT6fgc'][contains(text(),'Templates')]")));
         navTemp.click();
-
     }
 }

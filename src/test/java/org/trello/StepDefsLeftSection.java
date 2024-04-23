@@ -11,7 +11,6 @@ public class StepDefsLeftSection {
     @And("I am on the Home page")
     public void iAmOnTheHomePage() {
         leftSection.navigateToHomePage();
-
     }
 
     @When("I select {string} from the left hand side menu")
@@ -22,6 +21,5 @@ public class StepDefsLeftSection {
     @And("I am on the Templates page")
     public void iAmOnTheTemplatesPage() {
         leftSection.navigateToTempPage();
-
     }
 }

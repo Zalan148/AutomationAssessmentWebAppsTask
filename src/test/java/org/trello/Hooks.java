@@ -16,10 +16,9 @@ public class Hooks {
 
     static public WebDriver driver;
 
-
     @Before
     public void setup(){
-       System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/resources/drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/resources/drivers/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.navigate().to("https://trello.com/login");
@@ -27,7 +26,6 @@ public class Hooks {
 
     @After
     public void tearDown(Scenario scenario) throws IOException {
-
 
         if (scenario.isFailed()){
             int leftLimit = 97; // letter 'a'

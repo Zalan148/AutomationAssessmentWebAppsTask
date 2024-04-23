@@ -7,9 +7,7 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import pages.LoginPage;
-
 import java.io.FileInputStream;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
@@ -17,7 +15,6 @@ import java.util.Properties;
 public class StepDefsLogin {
 
     LoginPage loginPage = new LoginPage();
-
 
     @Given("I am on the Trello login page")
     public void iAmOnTheTrelloLoginPage() {
@@ -31,10 +28,9 @@ public class StepDefsLogin {
 
         // load a properties file
         prop.load(input);
-        loginPage.enterUserName(prop.getProperty("db.user"));   //wait needed
+        loginPage.enterUserName(prop.getProperty("db.user"));
         loginPage.clickLoginWithAltassian();
         loginPage.enterPassword(prop.getProperty("db.password"));
-
     }
 
     @And("submit the details")
@@ -46,7 +42,6 @@ public class StepDefsLogin {
     public void anErrorMessageWillBeDisplayed() throws InterruptedException {
         Thread.sleep(5000);
         loginPage.displayErrorMess();
-
     }
 
     @When("I enter no Username")
@@ -64,11 +59,6 @@ public class StepDefsLogin {
         Assert.assertTrue(Hooks.driver.findElement(By.id("login-submit")).isDisplayed());
     }
 
-  /*  @When("I enter {string}")
-    public void iEnterAnd(String username) {
-        loginPage.enterUserName(username);
-    }*/
-
     @And("submit the invalid details")
     public void submitTheInvalidDetails() {
         loginPage.clickLoginInvalidDetails();
@@ -82,10 +72,9 @@ public class StepDefsLogin {
         // load a properties file
         prop.load(input);
 
-        loginPage.enterUserName(prop.getProperty("db.user"));      //Need a wait
+        loginPage.enterUserName(prop.getProperty("db.user"));
         loginPage.clickLoginWithAltassian();
         loginPage.enterPassword(prop.getProperty("db.password"));
         loginPage.clickLogin();
-
     }
 }

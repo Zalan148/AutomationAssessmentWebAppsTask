@@ -12,6 +12,5 @@ public class TemplatesPage {
         By selectTemplateFromFeaturedCat = By.xpath("//span[@class='A2qOFKWdcU_KeW'][contains(text(),'"+cat+"')]");
         WebElement selTemp = ElementPresenceWait.waitUntilClickable(Hooks.driver, Hooks.driver.findElement(selectTemplateFromFeaturedCat));
         selTemp.click();
-
     }
 }

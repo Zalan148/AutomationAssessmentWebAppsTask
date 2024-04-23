@@ -6,6 +6,7 @@ Feature: Test Home Page features
   Background:
     Given I have logged in successfully
     And I am on the Home page
+
   @zalantest
   Scenario: A board can be created from the home page
     When I click on the Create a board link

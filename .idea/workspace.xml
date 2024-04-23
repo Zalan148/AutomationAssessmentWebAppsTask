@@ -4,38 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d588cab-f7d1-4671-90e0-f7b8afcb5f1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/common/ElementPresenceWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/trello/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/trello/StepDefsBoards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/trello/StepDefsHeaderSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/trello/StepDefsHome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/trello/StepDefsLeftSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/trello/StepDefsLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/trello/StepDefsLogout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/trello/StepDefsTemplates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BoardsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TemplatesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sections/HeaderSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sections/LeftSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testexecution/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Boards.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Home.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Logout.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Templates.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/TopTrello.feature" afterDir="false" />
+    <list default="true" id="9d588cab-f7d1-4671-90e0-f7b8afcb5f1f" name="Changes" comment="Version 1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/common/ElementPresenceWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/common/ElementPresenceWait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/trello/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/trello/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/trello/StepDefsBoards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/trello/StepDefsBoards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/trello/StepDefsHeaderSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/trello/StepDefsHeaderSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/trello/StepDefsHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/trello/StepDefsHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/trello/StepDefsLeftSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/trello/StepDefsLeftSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/trello/StepDefsLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/trello/StepDefsLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BoardsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BoardsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TemplatesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TemplatesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sections/HeaderSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sections/HeaderSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sections/LeftSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sections/LeftSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testexecution/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testexecution/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Boards.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Boards.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Home.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Logout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Logout.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +40,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Zalan148&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Zalan148/AutomationAssessmentWebAppsTask.git&quot;,
+    &quot;accountId&quot;: &quot;c634fd46-2b82-4590-bd50-b45fc9c3d2ca&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -63,18 +63,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.TestRunner.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ZalanWadood/IdeaProjects/WebApplicationsTask/src/test/java/org/trello",
-    "onboarding.tips.debug.path": "C:/Users/ZalanWadood/IdeaProjects/WebApplicationsTask/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.TestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ZalanWadood/IdeaProjects/WebApplicationsTask/src/test/java/org/trello&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ZalanWadood/IdeaProjects/WebApplicationsTask/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebApplicationsTask" />
@@ -108,10 +111,21 @@
       <option name="presentableId" value="Default" />
       <updated>1713655333247</updated>
     </task>
+    <task id="LOCAL-00001" summary="Version 1">
+      <option name="closed" value="true" />
+      <created>1713799632025</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713799632025</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Version 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

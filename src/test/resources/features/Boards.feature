@@ -7,7 +7,7 @@ Feature: Test Boards Page features
     Given I have logged in successfully
     And   I arrive at Boards page
 
-  @zalantestc
+  @zalantest
   Scenario: A new board can be created from the Boards page
     When I click on Create New Board
     And  Enter a board title from Boards page
@@ -15,6 +15,7 @@ Feature: Test Boards Page features
     And  Click Create Board button from Boards page
     Then A board is created
 
+  @zalantest
   Scenario: An existing board can be viewed
     When I click on an existing board
     Then board is displayed

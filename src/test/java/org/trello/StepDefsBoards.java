@@ -15,9 +15,7 @@ public class StepDefsBoards {
     public void iArriveAtTheBoardsPage() throws InterruptedException {
         Thread.sleep(5000);
         boardsPage.boardsPageDisplayed();
-
     }
-
 
     @When("I click on Create New Board")
     public void iClickOnCreateNewBoard() {
@@ -27,14 +25,11 @@ public class StepDefsBoards {
     @And("Enter a board title from Boards page")
     public void enterABoardTitleFromBoardsPage() {
         boardsPage.setAddBoardTitle("Test");
-
-
     }
 
     @And("Select a background image")
     public void selectABackgroundImage() {
         boardsPage.setSelectBackground();
-
     }
 
     @And("Click Create Board button from Boards page")
@@ -51,7 +46,6 @@ public class StepDefsBoards {
     public void boardIsDisplayed() throws InterruptedException {
         Thread.sleep(5000);
         Assert.assertTrue(Hooks.driver.findElement(By.xpath("//span[@data-testid='view-switcher-button-text'][contains(text(), 'Board')]")).isDisplayed());
-
     }
 
     @When("I click on View All Closed Boards")
@@ -63,7 +57,6 @@ public class StepDefsBoards {
     public void boardsThatHaveBeenClosedWillBeDisplayed() throws InterruptedException {
         Thread.sleep(5000);
         Assert.assertTrue(Hooks.driver.findElement(By.xpath("//button[@data-testid='close-board-delete-board-button']")).isDisplayed(), "Not on closed boards view");
-
     }
 
     @And("I arrive at Boards page")
@@ -71,6 +64,4 @@ public class StepDefsBoards {
         Thread.sleep(5000);
         boardsPage.boardsPageDisplayed();
     }
-
-    //i removed @And("I arrive at the Boards page")
 }

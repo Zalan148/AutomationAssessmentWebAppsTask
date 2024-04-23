@@ -17,7 +17,6 @@ public class ElementPresenceWait {
     public static void waitUntilVisible(WebDriver driver, WebElement element) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.visibilityOf(element));
-
     }
 
     public static void waitUntilVisibilityLocated(WebDriver driver, By element) {
@@ -29,6 +28,5 @@ public class ElementPresenceWait {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         WebElement elmClick = wait.until(ExpectedConditions.elementToBeClickable(element));
         return  elmClick;
-
     }
 }
