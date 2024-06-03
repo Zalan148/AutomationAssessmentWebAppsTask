@@ -7,7 +7,7 @@ Feature: Test Boards Page features
     Given I have logged in successfully
     And   I arrive at Boards page
 
-  @zalantest
+  @zalantestc
   Scenario: A new board can be created from the Boards page
     When I click on Create New Board
     And  Enter a board title from Boards page
