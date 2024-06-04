@@ -7,7 +7,7 @@ Feature: Test Home Page features
     Given I have logged in successfully
     And I am on the Home page
 
-  @zalantest
+  @zalantestc
   Scenario: A board can be created from the home page
     When I click on the Create a board link
     And  Enter a board title from home page
