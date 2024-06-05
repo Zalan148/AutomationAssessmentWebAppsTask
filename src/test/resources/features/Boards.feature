@@ -15,7 +15,7 @@ Feature: Test Boards Page features
     And  Click Create Board button from Boards page
     Then A board is created
 
-  @zalantest
+  @zalantestc
   Scenario: An existing board can be viewed
     When I click on an existing board
     Then board is displayed
