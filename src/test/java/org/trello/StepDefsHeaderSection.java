@@ -76,7 +76,7 @@ public class StepDefsHeaderSection {
     @Then("my workspaces are displayed")
     public void myWorkspacesAreDisplayed() throws InterruptedException {
         Thread.sleep(5000);
-        Assert.assertTrue(Hooks.driver.findElement(By.xpath("//h2[@class='HvHJoWyfA49Zz5'][contains(text(),'Your Workspaces')]")).isDisplayed());
+        Assert.assertTrue(Hooks.driver.findElement(By.xpath("//h2[@class='JcyewqfbHwlRb6'][contains(text(),'Your Workspaces')]")).isDisplayed());
     }
 
     @When("I click on the Notifications icon")

@@ -43,7 +43,7 @@ public class HeaderSection {
     public void clickWorkspacesDropdown() {
         By header = By.xpath("//h1[text()='Featured categories']");
         ElementPresenceWait.waitUntilVisibilityLocated(Hooks.driver, header);
-        WebElement workSpacesDd = ElementPresenceWait.waitUntilClickable(Hooks.driver, Hooks.driver.findElement(By.xpath("//span[@class='i67i1H0j1SpGBe'][text()='Workspaces']")));
+        WebElement workSpacesDd = ElementPresenceWait.waitUntilClickable(Hooks.driver, Hooks.driver.findElement(By.xpath("//span[@class='kpv7OitsgQTIxo'][text()='Workspaces']")));
         workSpacesDd.click();
     }
 
