@@ -15,7 +15,7 @@ public class HeaderSection {
     }
 
     public void clickLogoutLink() {
-        ElementPresenceWait.waitUntilTitleVisible(Hooks.driver,"Zalan Wadood's workspace");
+        ElementPresenceWait.waitUntilTitleVisible(Hooks.driver,"Home | Trello");
         WebElement logoutLk = ElementPresenceWait.waitUntilClickable(Hooks.driver, Hooks.driver.findElement(By.xpath("//span[contains(text(),'Log out')]")));
         logoutLk.click();
     }
